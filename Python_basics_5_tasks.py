@@ -17,6 +17,12 @@ averse = word[:]
 reverse = word[::-1]
 print(reverse)
 
+word = input("Please input a word: ")
+for x in range(len(word),-1, -1, -1):
+    print(word[x], end="")
+    print(x)
+
+
 
 #Task5.2.1
 
