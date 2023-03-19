@@ -6,6 +6,20 @@ print("Current date: ", str(current_date))
 date_5days_ago = current_date - timedelta(days=5)
 print("Date 5 days ago: ", str(date_5days_ago))
 
+#Notes: MAKING CONSTANTS. You can make in other file
+
+import constants as const
+import datetime
+
+current_date = datetime.date.today()
+new_date = current_date - datetime.timedelta(days=const.DAYS_TO_SUBSTRACT)
+
+print(const.DAYS TO SUBSTRACT, "days ago was: ", new_date)
+
+
+
+
+
 
 #Practical task 4.1 (write function to find the Max of 3 numbers)
 
